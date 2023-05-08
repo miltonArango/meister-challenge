@@ -1,3 +1,5 @@
+-- Assuming we need to analyze the last 29 days from the current date.
+
 SELECT country
 FROM mytable
 WHERE registration_date >= current_date - interval '29 day'
